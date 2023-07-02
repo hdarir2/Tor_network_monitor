@@ -1,0 +1,8 @@
+include *.md
+include *.rst
+include *.ini
+recursive-include docs *
+prune docs/build
+recursive-include tests *
+recursive-exclude **/__pycache__ *
+include versioneer.py

@@ -1,0 +1,15 @@
+*.pyc
+__pycache__/
+venv*/
+passwords.txt
+*.swp
+*.egg-info/
+docs/build
+.tox
+.coverage
+htmlcov
+.pytest_cache
+dist
+build
+*.lockfile
+chutney
