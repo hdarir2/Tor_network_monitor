@@ -15,7 +15,7 @@ MLEFlow [1] and the newest Probabilistic programming algorithm [2].
 Then it generates a bandwidth list file that is read
 by a directory authority to report relays’ bandwidth in its vote.
 
-In order to run the Probabilistic programming algorithm, the repository "Probabilistic Programming algorithm" contains the Python scripts that should be run in conjunction with the Shadow simulation. The script pauses the shadow simulation to compute the estimates and then relaunches after publishing the new nodes weights.
+**Note**:In order to run the Probabilistic programming algorithm, the repository "Probabilistic Programming algorithm" contains the Python scripts that should be run in conjunction with the Shadow simulation. The script pauses the shadow simulation to compute the estimates and then relaunches after publishing the new nodes weights.
 
 The clientbuilder helps in creating virtual clients in a virtual Tor network, i.e. shadow.
 
